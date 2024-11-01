@@ -1,0 +1,813 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#phone {
+    width: 280px;
+    height: 540px;
+    border: 8px solid rgb(138, 132, 132);
+    border-radius: 40px;
+    background-color: black;
+    margin-top: 90px;
+    padding: 4px;
+    background-size: cover;
+}
+
+#button {
+    width: 6px;
+    height: 25px;
+    background-color: black;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-top: 200px;
+}
+
+#top {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 75px;
+    
+}
+
+#amp {
+    color: white;
+}
+
+#ampp {
+    color: black;
+}
+
+.topp {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    
+}
+
+#mtnAir {
+    font-size: 11px;
+    color: white;
+}
+
+#round {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: black;
+    position: static;
+    margin-left: 130px;
+}
+
+#white {
+    color: white;
+}
+
+#black {
+    color: black;
+}
+
+#da {
+    color: white;
+}
+
+#amPm {
+    color: white;
+}
+
+#ass {
+    color: white;
+}
+
+#asss {
+    color: black;
+}
+
+#clock {
+    color: white;
+    font-size: 40px;
+}
+
+#pass {
+    color: white;
+}
+#passe {
+    color: red;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#menu {
+    background-color: rgb(243, 239, 239);
+    width: 150px;
+    height: 6px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-top: 208px;
+}
+
+#dis {
+    margin-top: -35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 117px;
+}
+
+#divv {
+    display: flex;
+    flex-direction: column;
+    align-content: center
+}
+
+#boo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#inp {
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.168);
+    border: none;
+    width: 225px;
+    height: 25px;
+    border-radius: 9px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+#inpp {
+    font-size: 18px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.168);
+    border: none;
+    width: 170px;
+    height: 25px;
+    border-radius: 9px;
+    padding: 5px;
+    color: black;
+    text-align: center;
+}
+.dan {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    color: white;
+    
+}
+
+.danj {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    color: black;
+    
+}
+
+.numa {
+    width: 51px;
+    height: 43px;
+ }
+.dannn {
+    width: 100%;
+    height: 100%;
+    /* font-size: 10px; */
+    border: none;
+    background-image: url("phoneic.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+
+.dann {
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    color: white;
+    
+}
+
+.dann:hover {
+    background: transparent;
+    color: black;
+}
+
+.dan:hover {
+    background-color: beige;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    color: black;
+}
+
+.num {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+
+#numSec {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+}
+
+#numSecc {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    margin-top: 50px;
+}
+#menuPage {
+    width: 100%;
+    height: 100%;
+}
+
+.icon {
+    width: 68px;
+    height: 48px;
+    border-radius: 15px;
+    background-image: url(music.png);
+    background-size: contain;
+    border: 1px solid pink;
+
+
+    /* width: 48px;
+    height: 48px;
+    border-radius: 15px;
+    background-image: url("music.png");
+    background-size: contain;
+    border: 1px solid pink; */
+}
+
+
+
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 23px;
+    margin-top: 6px;
+}
+
+.linee {
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+    margin-top: 6px;
+    margin-left: 9px;
+}
+
+#call{
+    width: 48px;
+    height: 48px;
+    border-radius: 15px;
+    background-image: url("phoneic.png");
+    background-size: contain;
+    border: 1px solid pink;
+}
+
+#endcall{
+    width: 48px;
+    height: 48px;
+    border-radius: 15px;
+    background-image: url("endcall.png");
+    background-size: contain;
+    border: 1px solid pink;
+}
+#contacts{
+    width: 48px;
+    height: 48px;
+    border-radius: 15px;
+    background-image: url("contacts.png");
+    background-size: contain;
+    border: 1px solid pink;
+}
+#camera{
+    width: 48px;
+    height: 48px;
+    border-radius: 15px;
+    background-image: url("camera.png");
+    background-size: contain;
+    border: 1px solid pink;
+}
+#calculator{
+    width: 48px;
+    height: 48px;
+    border-radius: 15px;
+    background-image: url("calculator.png");
+    background-size: contain;
+    border: 1px solid pink;
+}
+#music{
+    width: 48px;
+    height: 48px;
+    border-radius: 15px;
+    background-image: url("music.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 1px solid pink;
+}
+#files{
+    width: 48px;
+    height: 48px;
+    border-radius: 15px;
+    background-image: url("file.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 1px solid pink;
+}
+#alarm{
+    width: 48px;
+    height: 48px;
+    border-radius: 15px;
+    background-image: url("ALARM.png");
+    background-size: 100%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    border: 1px solid pink;
+}
+#cont{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#search {
+    height: 30px;
+    width: 250px;
+    align-self: center;
+    margin-left: 13px;
+    margin-top: 25px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(194, 200, 206);
+}
+
+.liz {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background: none;
+    border: none;
+    align-items: center;
+}
+.lizz {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 40px; */
+    background: none;
+    border: none;
+    align-items: center;
+}
+
+#coin {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    gap: 25px;
+    margin-top: 10px;
+    width: 90%;
+    height: 360px;
+    overflow-y: scroll;
+}
+
+
+.random {
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: teal;
+}
+
+.vee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.butt{
+    position: absolute;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 58px;
+    margin-left: 50px;
+    /* margin-top: 420px; */
+}
+.butts{
+    position: absolute;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 58px;
+    margin-left: 50px;
+    margin-top: 123px;
+}
+
+.buttt{
+    position: absolute;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 58px;
+    margin-left: 50px;
+    margin-top: 371px;
+}
+.buttte{
+    position: absolute;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 58px;
+    margin-left: 50px;
+    margin-top: 440px;
+}
+.buttten{
+    position: absolute;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 58px;
+    margin-left: 50px;
+    margin-top: 480px;
+}
+.buttter{
+    position: absolute;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 58px;
+    margin-left: 50px;
+    margin-top: 205.5px;
+}
+.buttterio{
+    position: absolute;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 58px;
+    margin-left: 50px;
+    margin-top: 165px;
+}
+.buttterion{
+    position: absolute;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 58px;
+    margin-left: 50px;
+    margin-top: 407px;
+}
+#backgroundless {
+    border: none;
+    background-color: transparent;
+}
+#backgroundlessbl {
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+#bold{
+    font-size: medium;
+    font-weight: bold;
+}
+#numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 110px;
+    margin-top: 15px;
+}
+#ikon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    
+}
+#po{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    background: transparent;
+    margin-left: 10px;
+}
+#opo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    background: transparent;
+    margin-left: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+#hide{
+    display: none;
+}
+.cen{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#name{
+    color: white;
+    font-size: larger;
+}
+#sha{
+    color: rgb(225, 219, 219);
+    font-size: larger;
+}
+.sha{
+    color: rgb(225, 219, 219);
+    font-size: larger;
+}
+#sss{
+    color: rgb(209, 202, 202);;
+}
+#sssh{
+    color: white;;
+}
+#minor{
+    margin-left: -46px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.butte{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 58px;
+    margin-left: 90px;
+    /* margin-top: 420px; */
+}
+.buttee{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 58px;
+    margin-left: 40px;
+    align-items: center;
+    /* margin-top: 420px; */
+}
+.minora{
+    margin-left: -46px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+#ran {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(157, 156, 154);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 30px;
+    margin-left: 65px;
+}
+#nohide{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+#siz{
+    font-size: 50px;
+}
+.var{
+    margin-left: 13px;
+    margin-top: 30px;
+}
+#inputt{
+    width: 160px;
+    height: 27px;
+    border-radius: 25px;
+    background-color: azure;
+    padding: 8px;
+}
+#inputte{
+    width: 160px;
+    height: 27px;
+    border-radius: 25px;
+    background-color: azure;
+    padding: 8px;
+}
+.imp{
+    font-size: large;
+    font-weight: bold;
+}
+#jup{
+    background: none;
+    border: none;
+}
+
+
+
+#section {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 22px;
+    background-color: rgb(55, 75, 75);
+    border-radius: 12px;
+    height: 370px;
+}
+.butter {
+    border: none;
+    width: 50px;
+    height: 50px;
+    box-shadow: -2px -2px 15px rgb(146, 146, 145), 2px 2px 15px rgb(108, 107, 105);
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.buttse {
+    border: none;
+    width: 105px;
+    height: 50px;
+    box-shadow: -2px -2px 15px rgb(146, 146, 145), 2px 2px 15px rgb(108, 107, 105);
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+}
+input{
+    height: 30px;
+    border-radius: 9px;
+}
+.myList{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center;
+    align-content: center; */
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: none;
+    width: 100%;
+    gap: -10px;
+   
+}
+.twoSp{
+    
+    width: 100%;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 10px;
+}
+#list{
+    height: 420px;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#square{
+    width: 100%;
+    height: 260px;
+    background-color: palevioletred;
+    background-image: url("music.png");
+}
+#melodies{
+    width: 100%;
+}
+
+#timeStyle{
+    width: 200px;
+    height: 50px;
+    margin-left: 40px;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.set{
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    margin-left: 60px;
+    font-size: large;
+    border-radius: 24px;
+    background-color: azure;
+}
+
+#video{
+    width: 100%;
+    height: 260px;
+    background-color: white;
+    border-radius: 30px;
+}
+#cap{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+#capp{
+    width: 250px;
+    height: 250px;
+    border: 1px solid white;
+    margin-top: 59px;
+    margin-left: 13px;
+}
+#canvas{
+    width: 280px;
+    position: absolute;
+    margin-top: -290px;
+}
+#sna{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: red;
+    border: 5px solid white;
+}
+#snal{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: black;
+    border: 5px solid white;
+}
+#very{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.whe{
+    margin-left: 13px;
+    font-size: 20px;
+    background: none;
+    border: none;
+}
+#herob{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    margin-top: 15PX;
+}
+.res{
+    width: 250px;
+    margin-left: 5px;
+}

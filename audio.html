@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.camera-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#video {
+    border: 1px solid black;
+}
+
+#capture-button {
+    margin-top: 20px;
+}
+
+#canvas {
+    display: none;
+}
+
+#captured-image {
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="640" height="480"></canvas>
+   
+    <div class="camera-container">
+        <video id="video" width="640" height="480"></video>
+        <button id="capture-button">Take Picture</button>
+        <canvas id="canvas" width="640" height="480"></canvas>
+        <img id="captured-image" />
+    </div>
+    <img src="" alt="">
+
+</body>
+</html>
+<script>
+const video = document.getElementById('video');
+const captureButton = document.getElementById('capture-button');
+const canvas = document.getElementById('canvas');
+const capturedImage = document.getElementById('captured-image');
+
+// Request camera access
+navigator.mediaDevices.getUserMedia({ video: true })
+    .then(stream => {
+        video.srcObject = stream;
+        video.play();
+    })
+    .catch(error => console.error('Error accessing camera:', error));
+
+// Capture image
+captureButton.addEventListener('click', () => {
+    // Draw video frame on canvas
+    const context = canvas.getContext('2d');
+    canvas.width = video.width;
+    canvas.height = video.height;
+    context.drawImage(video, 0, 0);
+
+    // Get canvas data URL
+    const imageDataURL = canvas.toDataURL('image/jpeg');
+console.log(imageDataURL);
+
+    // Display captured image
+    capturedImage.src = imageDataURL;
+    capturedImage.style.display = 'block';
+});
+
+</script>
